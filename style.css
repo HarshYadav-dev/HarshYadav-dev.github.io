@@ -1,0 +1,468 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --primary-color:  rgba(238, 255, 0, 0.8);
+    --secondary-color: rgba(0, 157, 255, 0.8);
+}
+
+.navbar {
+    background-color: none !important;
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    transition: all .5s;
+}
+
+.navbar-img {
+    width: 70px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.nav-intro {
+    margin: 0 !important;
+}
+
+.nav-intro span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav-span {
+    background-color: var(--primary-color);
+}
+
+.banner-img {
+    background-image: url(./images/pexels-ann-h-45017-1762851.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-cntnt {
+    height: 100vh;
+}
+
+.banner-cntnt h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.banner-span {
+    font-weight: 400;
+}
+
+.span-bg {
+    background-color: var(--primary-color);
+}
+
+.span-bg-b {
+    background-color: var(--secondary-color);
+}
+
+.row-me {
+    margin-top: 100px !important;
+}
+
+
+.me-7 {
+    background-color: var(--primary-color);
+    height: 200px;
+}
+
+.me-7 h3 {
+    font-size: 48px;
+    font-weight: 300;
+    position: relative;
+    top: -25px;
+    margin-left: 100px;
+    transition: all .5s;
+}
+
+.me-7 span {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.intro p {
+    line-height: 30px;
+}
+
+.intro h4 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 40px 0px;
+}
+
+.intro-b {
+    background-color: var(--secondary-color);
+}
+
+.intro-y {
+    background-color: var(--primary-color);
+}
+
+.intro a {
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.intro a:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+.me-about {
+    background-color: var(--secondary-color);
+    height: 200px;
+}
+
+.me-about h3 {
+    font-size: 48px;
+    font-weight: 300;
+    position: relative;
+    top: -25px;
+    margin-left: 100px;
+}
+
+.me-about span {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.about {
+    margin-top: 100px !important;
+}
+
+.about-me {
+    background-color: #e4e4e4;
+    padding: 70px !important;
+}
+
+.about-me h4 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 80px;
+
+}
+
+.about-me span {
+    background-color: var(--primary-color);
+}
+
+.about-me p {
+    line-height: 30px;
+    margin: 40px 0px;
+}
+
+.about-me h5 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.about-me ul {
+    padding: 16px;
+}
+
+.about-me li {
+    line-height: 35px;
+}
+
+.works-web {
+    margin: 100px 0px !important;
+}
+
+.works-web img {
+    width: 100%;
+}
+
+.works-web p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.works-img {
+    transition: all .5s;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.works-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    scale: 1.05;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.graphics-info {
+    padding: 60px;
+    background-color: var(--primary-color);
+}
+
+.graphics-info a {
+    text-decoration: none;
+    color: #000;
+    padding: 15px 60px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.graphics-info a:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+.contact-info {
+    margin: 100px 0px !important;
+}
+
+.contact-info p {
+    line-height: 30px;
+}
+
+.contact-info a {
+    margin: 40px 0px !important;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #ccc;
+    transition: all .5s;
+}
+
+.contact-info a:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.contact-info a i {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.footer {
+    background-color: #e4e4e4;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 576px) {
+   
+    .navbar-img {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .nav-intro {
+        font-size: 16px !important;
+    }
+
+    .nav-intro span {
+        font-size: 12px;
+    }
+
+    .banner-cntnt h2 {
+        font-size: 42px;
+    }
+
+    .me-7 h3 {
+        font-size: 36px;
+    }
+
+    .me-7 span {
+        font-size: 48px;
+    }
+
+    .intro h4 {
+        font-size: 32px;
+    }
+
+    .me-about h3 {
+        font-size: 36px;
+        margin-left: 137px;
+    }
+
+    .me-about span {
+        font-size: 48px;
+    }
+
+    .about {
+        margin-top: 0px !important;
+    }
+
+    .about-me {
+        padding: 70px 40px !important;
+    }
+
+    .about-me h4 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .graphics-info {
+        padding: 40px;
+    }
+
+    .graphics-info a {
+        padding: 10px 40px;
+    }
+
+    .contact-me h3 {
+        margin-left: 120px;
+    }
+
+    .works-web {
+        margin: 50px 0px !important;
+    }
+
+    .works-web p {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        margin: 50px 0px !important;
+    }
+
+    .contact-info a {
+        margin: 20px 0px !important;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 577px ) and  (max-width: 768px){
+
+    .navbar-img {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .banner-cntnt h2 {
+        font-size: 48px;
+    }
+
+    .me-7 h3 {
+        font-size: 36px;
+    }
+
+    .me-7 span {
+        font-size: 48px;
+    }
+
+    .intro h4 {
+        font-size: 36px;
+    }
+
+    .me-about h3 {
+        font-size: 36px;
+        margin-left: 100px;
+    }
+
+    .me-about span {
+        font-size: 48px;
+    }
+
+    .about-me {
+        padding: 50px !important;
+    }
+
+    .about-me h4 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .works-img {
+        margin: 15px;
+    }
+
+    .works-web p{
+        font-size: 18px;
+    }
+
+    .contact-info {
+        margin-bottom: 50px !important;
+    }
+
+    .contact-info a {
+        margin: 25px 0px !important;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+
+    .navbar-img {
+        display: none;
+    }
+    
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .banner-cntnt h2 {
+        font-size: 56px;
+    }
+
+    .me-7 h3 {
+        font-size: 36px;
+    }
+
+    .me-7 span {
+        font-size: 48px;
+    }
+
+    .me-about h3 {
+        font-size: 36px;
+    }
+
+    .me-about span {
+        font-size: 48px;
+    }
+
+    .about-me h4 {
+        font-size: 36px;
+        line-height: 65px;
+    }
+
+    .works-web p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1150px){
+
+    .banner-cntnt h2 {
+        font-size: 60px;
+    }
+}

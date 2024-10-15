@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="parent">
+
+        <div class="child">
+            <input type="text" class="input" id="display" disabled>
+            <div class="in-buttons">
+                <button class="button" onclick="getNum('1')">1</button>
+                <button class="button" onclick="getNum('2')">2</button>
+                <button class="button" onclick="getNum('3')">3</button>
+                <button class="button" onclick="getSum('+')">+</button>
+                <button class="button" onclick="getNum('4')">4</button>
+                <button class="button" onclick="getNum('5')">5</button>
+                <button class="button" onclick="getNum('6')">6</button>
+                <button class="button" onclick="getSum('-')">-</button>
+                <button class="button" onclick="getNum('7')">7</button>
+                <button class="button" onclick="getNum('8')">8</button>
+                <button class="button" onclick="getNum('9')">9</button>
+                <button class="button" onclick="getSum('*')">*</button>
+                <button class="button" onclick="getNum('0')">0</button>
+                <button class="button clear" onclick="clearValue()">C</button>
+                <button class="button equal" onclick="getValue()">=</button>
+                <button class="button" onclick="getSum('/')">/</button>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <script src="calculator.js"></script>
+</body>
+</html>
